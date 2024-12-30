@@ -1,0 +1,2 @@
+!function(){var e={openModalBtn:document.querySelector("[data-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]")};if(e.openModalBtn&&e.closeModalBtn&&e.modal){function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),document.addEventListener("keydown",(function(n){"Escape"!==n.key||e.modal.classList.contains("is-hidden")||o()}))}else console.error("Some elements were not found")}();
+//# sourceMappingURL=index.d155b57b.js.map
