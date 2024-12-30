@@ -93,7 +93,7 @@
   />
 </symbol>
 <symbol id="icon-close" viewBox="0 0 32 32" ><path d="M32 3.223 28.777 0 16 12.777 3.223 0 0 3.223 12.777 16 0 28.777 3.223 32 16 19.223 28.777 32 32 28.777 19.223 16 32 3.223z"/></symbol>
-<symbol id="icon-line" >
-<path d="M4.04584 4C144.993 119.563 -6.78241 395.026 206.297 485C371.787 554.879 482.391 248.876 696.297 348C793.351 392.975 871.823 507.201 900.251 589.267" stroke="#B1040E" stroke-width="8" stroke-linecap="round" /></symbol>
+<symbol id="icon-menu" viewBox="0 0 24 16">
+<path d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z" fill="#212121" /></symbol>
   </defs>
 </svg>

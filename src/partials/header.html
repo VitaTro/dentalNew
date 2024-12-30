@@ -19,8 +19,9 @@
         </li>
         <li class="address-item">
           <svg width="15" height="18">
-            <use href="./images/icons.svg#icon-clock"></use></svg
-          >Office Hour: 08:00am - 6:00pm
+            <use href="./images/icons.svg#icon-clock"></use>
+          </svg>
+          Office Hour: 08:00am - 6:00pm
         </li>
         <li class="address-item">
           <svg width="15" height="18">
@@ -30,5 +31,45 @@
         </li>
       </ul>
     </address>
+
+    <div class="header-menu">
+      <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg width="32" height="22">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </header>
+
+<div class="js-menu-container menu-container" id="mobile-menu">
+  <button class="modal-menu-svg js-close-menu">
+    <svg class="modal-svg" width="8" height="8">
+      <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+  <ul class="address-list">
+    <li class="address-item">
+      <svg width="15" height="18">
+        <use href="./images/icons.svg#icon-address"></use>
+      </svg>
+      Cooks Mill Rd, Halifax NS, Canada
+    </li>
+    <li class="address-item">
+      <svg width="15" height="18">
+        <use href="./images/icons.svg#icon-clock"></use>
+      </svg>
+      Office Hour: 08:00am - 6:00pm
+    </li>
+    <li class="address-item">
+      <svg width="15" height="18">
+        <use href="./images/icons.svg#icon-phone"></use>
+      </svg>
+      123 456 7890
+    </li>
+  </ul>
+</div>
