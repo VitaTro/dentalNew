@@ -1,2 +1,40 @@
-@import './common';
-@import './example';
+@import './header.scss';
+@import './hero-section.scss';
+@import './technology.scss';
+@import './services.scss';
+@import './beautiful.scss';
+@import './patients.scss';
+@import './team.scss';
+@import './brand.scss';
+@import './appointment.scss';
+@import './footer.scss';
+:root {
+  --red: #b1040e;
+  --dark-red: #80060d;
+  --white: #fff;
+  --black: #000;
+  --light-black: #2e333e;
+  --light: #f9f7f4;
+  --light-grey: #e3e3e3;
+  --light-brown: #828282;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.menu-toggle {
+  display: none;
+}

@@ -1,0 +1,51 @@
+.header {
+  padding: 25px 60px;
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.logo-container {
+  margin-left: 20px;
+}
+.logo-header {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--light-black);
+}
+.logo-p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: var(--red);
+}
+.address {
+  width: 713px;
+  height: 18px;
+}
+.address-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+.address-item {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: var(--black);
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,15 @@
+.brand-section {
+  background-color: var(--light);
+  padding: 5px 60px 80px;
+}
+.brand-header {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--light-black);
+  text-align: center;
+}
+.brand-logo {
+  display: flex;
+  gap: 36px;
+}

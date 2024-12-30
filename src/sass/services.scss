@@ -1,0 +1,99 @@
+.services {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--red);
+  margin-bottom: 20px;
+}
+.services-dental {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+.services-dental-item {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--light-black);
+}
+.services-image {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 60px;
+  padding: 35px 60px 149px;
+}
+
+.label {
+  margin: 0;
+  padding: 20px 30px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  width: 323px;
+  height: 21px;
+  font-size: 30px;
+  background-color: var(--red);
+  color: var(--white);
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+.services-container {
+  margin-bottom: 20px;
+}
+.services-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0px;
+  border-radius: 10px;
+  width: 323px;
+  height: 609px;
+  background-color: var(--white);
+}
+.services-item {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: var(--light-black);
+  margin-top: 0;
+  padding: 10px 40px 15px;
+}
+.services-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.services-button {
+  border: 1px solid var(--red);
+  border-radius: 100px;
+  padding: 10px;
+  background-color: var(--light);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--red);
+}
+.services-icon {
+  margin-left: 8px;
+}

@@ -1,0 +1,36 @@
+.technology {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 60px;
+}
+.section-technology {
+  /* width: 1181px; */
+  height: 198px;
+  padding: 10px 60px;
+  margin-bottom: 150px;
+}
+.technology-header {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  text-align: center;
+  color: var(--light-black);
+}
+.technology-item {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: var(--light-black);
+}
+.technology-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 32px;
+}

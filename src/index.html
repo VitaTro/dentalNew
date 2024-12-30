@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Dental</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
+    <style>
+      body {
+        max-width: 1440px;
+        max-height: 6917px;
+      }
+      .is-hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+    </style>
   </head>
   <body>
-    <h1>Example title</h1>
+    <!-- <h1>Example title</h1> -->
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <include src="./partials/header.html"></include>
+    <main>
+      <include src="./partials/hero-section.html"></include>
+      <include src="./partials/technology.html"></include>
+      <include src="./partials/beautiful.html"></include>
+      <include src="./partials/services.html"></include>
+      <include src="./partials/patients.html"></include>
+      <include src="./partials/team.html"></include>
+      <include src="./partials/brand.html"></include>
+      <include src="./partials/appointment.html"></include>
+    </main>
+    <include src="./partials/footer.html"></include>
   </body>
 </html>

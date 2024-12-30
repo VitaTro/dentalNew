@@ -1,0 +1,84 @@
+.team {
+  background-color: var(--light);
+  padding: 80px 60px;
+}
+.team-header-four {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--red);
+  margin-bottom: 20px;
+}
+.team-header-second {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1;
+  text-align: center;
+  color: var(--light-black);
+}
+.team-item {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--light-black);
+}
+.team-leader {
+  border-radius: 10px;
+}
+.team-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 60px;
+}
+.team-personal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 4px solid #b1040e;
+  border-left: 1px solid #b1040e;
+  border-right: 1px solid #b1040e;
+  border-top: 1px solid #b1040e;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  height: 254px;
+  margin-top: -100px;
+  background-color: var(--white);
+}
+.team-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.personal-name {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  text-align: center;
+  color: var(--black);
+}
+.personal-profession {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--red);
+}
+.personal-description {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: var(--black);
+}

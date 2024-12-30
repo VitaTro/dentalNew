@@ -1,0 +1,76 @@
+.section-smile {
+  background-color: var(--light);
+}
+.smile-section {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--red);
+  padding-top: 84px;
+}
+.smile-header {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1;
+  text-align: center;
+  color: var(--black);
+  margin-top: 20px;
+}
+
+.smile-item {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--black);
+  margin-top: 30px;
+}
+.smile-list {
+  padding: 70px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.smile-image {
+  border-radius: 10px;
+}
+.align-start {
+  margin-top: 100px;
+}
+.smile-clients {
+  padding: 100px;
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.quantity {
+  font-family: 'El Messiri', sans-serif;
+  margin-left: 50px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--light-black);
+  display: inline-flex;
+  align-items: flex-start;
+}
+.plus {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  color: var(--red);
+  position: relative;
+  top: 2px;
+}
+.quantity-item {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--red);
+}

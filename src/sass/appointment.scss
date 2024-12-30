@@ -1,0 +1,117 @@
+.appointment-section {
+  padding: 80px 60px;
+}
+.appointment-header {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1;
+  color: var(--light-black);
+  text-align: center;
+}
+.appointment-item {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: var(--light-black);
+}
+.appointment-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 80px;
+  padding: 60px 120px;
+  border-bottom: 1px solid lightgray;
+}
+.appointment-list {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.appointment-icon-header {
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  text-align: center;
+  color: var(--black);
+}
+.appointment-icon-item {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: var(--black);
+}
+.appointment-icon-link {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--red);
+  text-decoration: none;
+}
+.registration-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 65px;
+  padding-top: 60px;
+}
+.registration-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 30px;
+}
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.registration-label {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--light-black);
+}
+.registration-input {
+  margin-bottom: 30px;
+  border: 1px solid var(--light-grey);
+  border-radius: 8px;
+  padding: 21px 20px;
+  width: 220px;
+  height: 55px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--light-brown);
+}
+.registration-textarea {
+  border: 1px solid var(--light-grey);
+  border-radius: 8px;
+  padding: 15px 20px;
+  width: 520px;
+  height: 89px;
+  color: var(--light-brown);
+}
+.registration-button {
+  border-radius: 8px;
+  padding: 15px 30px;
+  width: 520px;
+  height: 55px;
+  border: 1px solid var(--dark-red);
+  color: var(--dark-red);
+  background: var(--light);
+  margin-top: 20px;
+}
+.registration-button:hover,
+.registration-button:active {
+  background: var(--red);
+  color: var(--white);
+}
