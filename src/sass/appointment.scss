@@ -58,16 +58,17 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 65px;
+  // flex-direction: row;
+  gap: 85px;
   padding-top: 60px;
+  padding-left: 60px;
 }
 .registration-details {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 30px;
+  gap: 85px;
 }
 .registration-form {
   display: flex;
