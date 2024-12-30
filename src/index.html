@@ -32,7 +32,6 @@
     </style>
   </head>
   <body>
-    <!-- <h1>Example title</h1> -->
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <include src="./partials/header.html"></include>
     <main>
@@ -45,6 +44,9 @@
       <include src="./partials/brand.html"></include>
       <include src="./partials/appointment.html"></include>
     </main>
-    <include src="./partials/footer.html"></include>
+    <div id="footer"><include src="./partials/footer.html"></include></div>
+
+    <script src="./index.js" type="module"></script>
+    <script src="./js/appointment.js"></script>
   </body>
 </html>

@@ -34,3 +34,58 @@
     </div>
   </div>
 </section>
+
+<!-- modal window -->
+<div class="is-hidden modal modal-windows" data-modal>
+  <button type="button" class="modal-windows-close" data-modal-close>
+    <svg class="modal-svg" width="8" height="8">
+      <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+  <div class="modal-container">
+    <form
+      name="registration-form"
+      autocomplete="on"
+      novalidate
+      class="registration-form"
+    >
+      <label for="name" class="registration-label"> Name</label>
+      <input
+        type="text"
+        name="username"
+        placeholder="Full Name"
+        class="modal-input"
+      />
+      <label for="email" class="registration-label">Email Address</label>
+      <input
+        type="email"
+        name="email"
+        id="user_email"
+        placeholder="email@example.com"
+        class="modal-input"
+      />
+      <label for="phone" class="registration-label">Phone Number</label>
+      <input
+        type="tel"
+        name="phone"
+        placeholder="(12) 345-6789"
+        class="modal-input"
+      />
+      <label for="text" class="registration-label">Service </label>
+      <input
+        type="text"
+        name="text"
+        placeholder="Ex. Dental Implants"
+        class="modal-input"
+      />
+
+      <label for="text" class="registration-label">Message</label>
+      <textarea
+        name="feedback"
+        placeholder="Please describe what service you are interested in"
+        class="modal-textarea"
+      ></textarea>
+      <button type="submit" class="modal-button">Submit</button>
+    </form>
+  </div>
+</div>
