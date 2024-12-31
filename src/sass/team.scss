@@ -151,6 +151,7 @@
     justify-content: flex-start;
     flex-direction: column;
     border-radius: 10px;
+    width: 323px;
   }
   .personal-name {
     font-family: 'El Messiri', sans-serif;
@@ -214,10 +215,11 @@
   }
   .team-container {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 60px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
   }
   .team-personal {
     display: flex;
@@ -241,6 +243,8 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    border-radius: 10px;
+    width: 323px;
   }
   .personal-name {
     font-family: 'El Messiri', sans-serif;
