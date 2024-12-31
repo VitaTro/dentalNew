@@ -186,7 +186,7 @@
 
 //      -------     mobile      --------
 
-@media screen and (max-width: 767px) {
+@media screen and(min-width: 510px) and (max-width: 767px) {
   .section-patients {
     padding: 30px;
   }
@@ -212,6 +212,106 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    text-align: center;
+    color: var(--light-black);
+  }
+  .patients-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .patients-image {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  .container-patient {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 70px;
+    box-sizing: border-box;
+  }
+  .patients-container:hover .container-patient,
+  .patients-container:focus .container-patient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .patient-header-four {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: var(--red);
+  }
+  .patient-header-second {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--black);
+  }
+  .patient-item {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: var(--black);
+  }
+  .patient-button {
+    border: 1px solid var(--dark-red);
+    border-radius: 8px;
+    padding: 10px 20px;
+    width: 123px;
+    height: 45px;
+    color: var(--dark-red);
+    background-color: var(--white);
+  }
+  .patient-button:hover,
+  .patient-button:focus {
+    color: var(--white);
+    background-color: var(--red);
+  }
+  .patient-margin {
+    margin-bottom: 60px;
+  }
+}
+//      -------     mini-mobile      --------
+
+@media screen and (min-width: 320px) and (max-width: 509px) {
+  .section-patients {
+    padding: 20px;
+  }
+  .patients {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: var(--red);
+    margin-bottom: 20px;
+  }
+  .patients-dental {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 30px;
+  }
+  .patients-dental-item {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     text-align: center;
     color: var(--light-black);
   }

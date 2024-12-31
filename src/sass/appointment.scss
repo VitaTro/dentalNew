@@ -244,7 +244,7 @@
 
 //      -------     mobile      --------
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 510px) and (max-width: 767px) {
   .appointment-section {
     padding: 30px;
   }
@@ -357,6 +357,128 @@
     background: var(--light);
     margin-top: 20px;
   }
+  .registration-button:hover,
+  .registration-button:active {
+    background: var(--red);
+    color: var(--white);
+  }
+}
+//      -------     mini-mobile      --------
+
+@media screen and (min-width: 320px) and (max-width: 509px) {
+  .appointment-section {
+    padding: 20px;
+  }
+  .appointment-header {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    color: var(--light-black);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .appointment-item {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: var(--light-black);
+  }
+  .appointment-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 120px;
+    border-bottom: 1px solid lightgray;
+  }
+  .appointment-list {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .appointment-icon-header {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1;
+    text-align: center;
+    color: var(--black);
+  }
+  .appointment-icon-item {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: var(--black);
+  }
+  .appointment-icon-link {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--red);
+    text-decoration: none;
+  }
+  .registration-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 50px;
+  }
+
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .registration-label {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--light-black);
+  }
+
+  .registration-input {
+    margin-bottom: 30px;
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    padding: 21px 20px;
+    width: 100%;
+    max-width: 400px;
+    height: 55px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--light-brown);
+  }
+
+  .registration-textarea {
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    padding: 15px 20px;
+    width: 100%;
+    max-width: 520px;
+    height: 89px;
+    color: var(--light-brown);
+  }
+
+  .registration-button {
+    border-radius: 8px;
+    padding: 15px 30px;
+    width: 100%;
+    max-width: 520px;
+    height: 55px;
+    border: 1px solid var(--dark-red);
+    color: var(--dark-red);
+    background: var(--light);
+    margin-top: 20px;
+  }
+
   .registration-button:hover,
   .registration-button:active {
     background: var(--red);
